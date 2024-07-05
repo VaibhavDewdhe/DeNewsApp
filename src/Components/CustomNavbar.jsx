@@ -58,7 +58,7 @@ function CustomNavbar() {
             alt="logo"
             style={{ width: "40px", marginRight: "5px" }}
           />
-          <span className="fw-bold">DeNewsApp</span>
+          <span className="fw-bold">DevNewsApp</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
