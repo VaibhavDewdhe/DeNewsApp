@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const NEWS_API_KEY = `${import.meta.env.VITE_APP_API_KEY}`;
+const NEWS_API_KEY = `384aac4121ad4096bd71034f26f0ede1`;
 const BASE_URL = "https://newsapi.org/v2/top-headlines";
 
 export const fetchArticles = createAsyncThunk(
