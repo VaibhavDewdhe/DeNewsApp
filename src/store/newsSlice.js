@@ -7,7 +7,7 @@ export const fetchArticles = createAsyncThunk(
   "news/fetchArticles",
   async ({ category, page, searchQuery }, { rejectWithValue }) => {
     try {
-      let url = `${BASE_URL}?country=us&pageSize=12&page=${page}&apiKey=29ceb4ee1fa747be97310a6ef9025f60`;
+      let url = `${BASE_URL}?country=us&pageSize=12&page=${page}&apiKey=29ceb4ee1fa747be97310a6ef9025f60&from=2020-04-12`;
       if (searchQuery) {
         url = `https://newsapi.org/v2/everything?q=${searchQuery}&pageSize=12&page=${page}&apiKey=${NEWS_API_KEY}`;
       } else {
